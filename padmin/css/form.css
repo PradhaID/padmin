@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:#edefef;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+}
+h2{
+	margin:5px;
+}
+input, select, textarea, button{
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;	
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	padding:6px;
+	border:1px solid #aaa;
+	font-family:Geneva, sans-serif;
+	font-size:12px;
+}
+textarea{
+	height:100px;
+}
+input[type=submit], input[type=button], button {
+	margin: 0;
+	padding: 0;
+	cursor:hand;
+	cursor:pointer;
+	color:#FFF;
+	padding:4px 5px;
+	background-color:#1122AA;
+	background-image: -ms-linear-gradient(bottom, #1122AA 0%, #0066FF 100%);
+	background-image: -moz-linear-gradient(bottom, #1122AA 0%, #0066FF 100%);
+	background-image: -o-linear-gradient(bottom, #1122AA 0%, #0066FF 100%);
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #1122AA), color-stop(1, #0066FF));
+	background-image: -webkit-linear-gradient(bottom, #1122AA 0%, #0066FF 100%);
+	background-image: linear-gradient(to top, #1122AA 0%, #0066FF 100%); 
+}
+input[type=submit]:hover, button:hover, input[type=button]:hover{
+	background-color:#0066FF;
+	background-image: -ms-linear-gradient(bottom, #1122AA 0%, #2288FF 100%);
+	background-image: -moz-linear-gradient(bottom, #1122AA 0%, #2288FF 100%);
+	background-image: -o-linear-gradient(bottom, #1122AA 0%, #2288FF 100%);
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #2288FF), color-stop(1, #2288FF));
+	background-image: -webkit-linear-gradient(bottom, #1122AA 0%, #1177FF 100%);
+	background-image: linear-gradient(to top, #1122AA 0%, #2288FF 100%);
+}
+input[type=submit]:active, input[type=button]:active, button:hover{
+	background-color:#001199;
+	background-image: -ms-linear-gradient(bottom, #0066FF 0%, #1122AA 100%);
+	background-image: -moz-linear-gradient(bottom, #0066FF 0%, #1122AA 100%);
+	background-image: -o-linear-gradient(bottom, #0066FF 0%, #1122AA 100%);
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #0066FF), color-stop(1, #1122AA));
+	background-image: -webkit-linear-gradient(bottom, #0066FF 0%, #1122AA 100%);
+	background-image: linear-gradient(to top, #0066FF 0%, #1122AA 100%);
+}
+input[type=checkbox] {
+	width: 15px;
+    height: 15px;
+	padding:0;
+	margin:0 3px 0 0;
+    vertical-align: bottom;
+    position: relative;
+    top: -1px;
+    *overflow: hidden;
+}
+label {
+	display: block;
+    padding: 2px 2px 2px 15px;
+    text-indent: -15px;
+}
+.inputAdd, .inputAddKecil{
+	font-style:italic;
+	color:#aaa;
+} 
+.inputAdd{
+	width:400px;
+}
+.inputAddKecil{
+	width:200px;
+}
+.inputEdit, .inputEditKecil{
+	font-style:normal;
+	color:#000;
+}
+.inputEdit{
+	width:400px;
+}
+.inputEditKecil{
+	width:200px;
+}
+#pilihKategori{
+	background-color:#FFF;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;	
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	padding:6px;
+	border:1px solid #aaa;
+	font-family:Geneva, sans-serif;
+	font-size:12px;
+}
+
+

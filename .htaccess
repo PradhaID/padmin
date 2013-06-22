@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteRule ^([^/]*)/([^/]*)/([a-zA-Z0-9_-]+)\.me$ /index.php?content=$1&id=$2 [L]
+RewriteRule ^([^/]*)/([^/]*)/([^/]*)/([a-zA-Z0-9_-]+)\.me$ /index.php?content=$1&id=$2&hal=$3 [L]
+
+

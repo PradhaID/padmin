@@ -1,0 +1,375 @@
+@charset "utf-8";
+
+/* HTML Section */
+body{
+	margin:0 auto;
+	background-color:#ffe28a;
+	/*background-image:url(img/bg.png);
+	background-repeat:repeat-x;*/
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+}
+h1, h2{
+	margin:2px 0;
+
+}
+a{
+	text-decoration:none;
+	color:#335;
+}
+a.hover{
+	text-decoration:underline;
+}
+/* Layout Section */
+#layout{
+	border:1px solid #a47c04;
+	width:1000px;
+	margin:5px auto;
+	/*-moz-box-shadow: 1px 1px 1px #888;
+	-webkit-box-shadow: 1px 1px 1px #888;
+	box-shadow: 1px 1px 1px #888;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Color='#888888')";
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Color='#888888');*/
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;	
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background:#FFF;
+}
+/* Header Section */
+#header{
+	background:#c1930a;
+	padding:5px;
+	clear:both;
+	background-image:url(img/bg-header.png);
+	background-repeat:repeat-x;
+	background-position:bottom;
+	border-bottom:1px solid #a47c04;
+}
+#header h1{
+color:#c1930a;
+text-shadow: black 0.1em 0.1em 0.2em;
+}
+#header h2{
+color:#c1930a;
+margin-left:5px;
+text-shadow: black 0.1em 0.1em 0.2em;
+}
+#header .right{
+	float:right;
+	background-image:url(img/right-swirl.png);
+	min-height:80px;
+	padding-right:50px;
+	background-repeat:no-repeat;
+	background-position:bottom right;
+}
+#header .right p{
+	margin:8px 0;
+}
+#header .right p a{
+	text-decoration:none;
+	color:#c1930a;
+}
+#header .right p a:hover{
+	text-decoration:underline;
+}
+#header .left{
+	padding:25px 0 0 45px;
+	float:left;
+	background-image:url(img/left-swirl.png);
+	width:400px;
+	background-repeat:no-repeat;
+	background-position:top left;
+}
+#footer a{
+color:#c1930a;
+text-decoration:underline;
+}
+#footer{
+	background:#c1930a;
+	padding:10px;
+	text-align:center;
+	clear:both;
+	background-image:url(img/bg-footer.png);
+	background-repeat:repeat-x;
+	background-position:bottom;
+	border-bottom:1px solid #99b;
+	font-size:10px;
+	color:#c1930a;
+	font-style:bold;
+	text-shadow: black 1px 1px 1px;
+}
+#footer .left{
+	float:left;
+}
+#footer .right{
+	float:right;
+	min-height:60px;
+	width:100px;
+	
+	background-image:url(img/right-swirl.png);
+	background-repeat:no-repeat;
+	background-position:bottom right;
+}
+/*Navigasi Menu*/
+.clear { height: 100% }
+.clear:after { content: ''; display: block; clear: both }
+#nav{background: #c2a448; font-size:11px;}
+#menu {
+	border-bottom: 1px solid #c2a448;
+}
+#menu, #menu ul { list-style: none; margin: 0; padding: 0;z-index:1100; }
+
+#menu li { background: #c2a448; border-right: 1px solid #a47c04; position: relative; float: left; white-space: nowrap }
+#menu li a { display: block; padding: 10px; text-decoration: none; color: #333; }
+
+#menu ul { background: #fff; display: none; position: absolute }
+#menu ul li { background: #c2a448; border-top: 1px solid #c2a448; border-right: 0px solid transparent; float: none }
+ 
+#menu ul ul { top: 1px; left: 100% }
+
+#menu li.has_child { background-image: url('img/arrow-down.png'); background-position: 98% 50%; background-repeat: no-repeat; padding-right: 10px }
+#menu li.hover  { background-color: #a49f48 }
+
+#menu ul { -webkit-box-shadow: 1px 1px 1px #999; -moz-box-shadow: 1px 1px 1px #999; box-shadow: 1px 1px 1px #999 }
+
+/*Content*/
+#content{
+	clear:both;
+	padding:10px 5px;
+	line-height:20px;
+}
+/*Post*/
+#post{
+	padding:5px 5px;
+	border-right:1px solid #ccc;
+	font-family:tahoma;
+}
+#post a{
+color :#a47c04;
+}
+#post a:hover{
+	text-decoration:underline;
+}
+#post ul{
+	margin:0;
+	padding:3px;
+	list-style:none;
+}
+#post h3{
+	margin:2px 0;
+	border-bottom:1px solid #ccc;
+}
+#content img{
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;	
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-shadow: 1px 1px 1px #888;
+	-webkit-box-shadow: 1px 1px 1px #888;
+	box-shadow: 1px 1px 1px #888;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Color='#888888')";
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Color='#888888');
+}
+div.img{  
+    float:left; /* important */  
+    position:relative; /* important(so we can absolutely position the description div */  
+	margin:3px 4px;
+	width:185px;
+	height:131px;
+	overflow:hidden;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;	
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}  
+#album{
+	float:left;
+	margin:0 30px 30px 0px;
+	height:180px;
+	width:230px;
+}
+div #album a{
+	position:absolute;
+}
+div #album a img{
+	-webkit-transition: -webkit-transform 0.8s ease;
+    -moz-transition: -moz-transform 0.8s ease;
+    -o-transition: -o-transform 0.8s ease;
+    transition: transform 0.8s ease;
+	float:left;
+	position:absolute;
+	border:1px solid #ccc;
+	background:#fff;
+	padding: 3px;
+	max-width:230px;
+	z-index:1000;
+}
+div #album a:hover .thumb1{
+	-webkit-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    -o-transform: scale(1.4);
+    transform: scale(1.4);
+	transform:rotate(60deg);
+	-ms-transform:rotate(60deg); 
+	-moz-transform:rotate(60deg);
+	-webkit-transform:rotate(60deg); 
+	-o-transform:rotate(60deg);
+	
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    -o-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+	z-index:1001;
+}
+div #album a:hover .thumb2{
+-webkit-transform: scale(1,3);
+    -moz-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    transform: scale(1.3);
+	transform:rotate(40deg);
+	-ms-transform:rotate(40deg); 
+	-moz-transform:rotate(40deg); 
+	-webkit-transform:rotate(40deg); 
+	-o-transform:rotate(40deg); 
+	-webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    -o-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+	z-index:1002;
+}
+div #album a:hover .thumb3{
+	-webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+	transform:rotate(20deg);
+	-ms-transform:rotate(20deg); 
+	-moz-transform:rotate(20deg);
+	-webkit-transform:rotate(20deg); 
+	-o-transform:rotate(20deg);
+	
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    -o-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+	z-index:1003;
+}
+div #album a:hover .thumb4{
+	/*-webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    transform: scale(1.3);
+	transform:rotate(-10deg);
+	-ms-transform:rotate(-10deg); 
+	-moz-transform:rotate(-10deg);
+	-webkit-transform:rotate(-10deg); 
+	-o-transform:rotate(-10deg); */
+	-webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    -o-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+	z-index:1004;
+}
+div.img a img {
+	-webkit-transition: -webkit-transform 0.3s ease;
+    -moz-transition: -moz-transform 0.3s ease;
+    -o-transition: -o-transform 0.3s ease;
+    transition: transform 0.3s ease;
+}
+div.img a:hover img {
+	-webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    transform: scale(1.3);
+	z-index:1000;
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    -o-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+div.deskripsi{  
+    position:absolute; /* absolute position (so we can position it where we want)*/  
+	bottom:0px;
+    width:100%;  
+    /* styling bellow */  
+    background-color:black;  
+    font-family: 'tahoma';  
+    font-size:11px;  
+    color:#ffdd75;  
+    opacity:0.6; /* transparency */  
+    filter:alpha(opacity=60); /* IE transparency */
+	-webkit-border-radius: 0 0 3px 3px;
+	-khtml-border-radius: 0 0 3px 3px;
+	-moz-border-radius: 0 0 3px 3px;
+	border-radius: 0 0 3px 3px;
+}  
+p.isi_deskripsi{  
+    padding:2px 5px;  
+    margin:0px;  
+	text-align:right;
+}  
+/*ToolTip*/
+a[data-tooltip]{
+    position: relative;
+    text-decoration: none;
+    border-bottom: solid 1px;
+}
+
+
+a[data-tooltip]:before,
+a[data-tooltip]:after{  
+    opacity: 0;
+    display: none;
+    position: absolute;
+    -webkit-transition: opacity .3s ease;
+    -moz-transition: opacity .3s ease;
+    -ms-transition: opacity .3s ease;
+    -o-transition: opacity .3s ease;
+    transition: opacity .3s ease;
+    pointer-events: none;
+	z-index:1005;
+}
+
+
+a[data-tooltip]:after {
+    content: attr(data-tooltip);
+    color: #fff;
+    bottom: -220px;
+    left: 0;/*-26px;*/
+    background: #c2a448;
+    padding: 5px 15px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    white-space: nowrap;
+}
+
+a[data-tooltip]:hover:before, a[data-tooltip]:hover:after {
+    opacity: 1;
+    display: block;
+	 -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    -o-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}​
+/*Float Menu */
+#fl_menu .menu{width:410px;display:none;background:#80640f;}
+#fl_menu .menu .fl_content{color:#333;padding: 5px;background:#80640f;display:none;width:400px; -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    -o-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+	-webkit-border-radius: 0 5px 5px 0px;
+	-khtml-border-radius: 0 5px 5px 0px;
+	-moz-border-radius: 0 5px 5px 0px;
+	border-radius: 0 5px 5px 0px}
+#fl_menu{position:absolute; top:50px; left:0px; z-index:9999;width:100px;}
+#fl_menu .label{padding:10px; font-weight:bold; background:#80640f; color:#ffdd75;-webkit-border-radius: 0 5px 0px 0px;
+	-khtml-border-radius: 0 5px 0px 0px;
+	-moz-border-radius: 0 5px 0px 0px;
+	border-radius: 0 5px 0px 0px;
+	 -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    -o-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);}
+

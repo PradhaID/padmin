@@ -1,0 +1,13 @@
+; file ini adalah file identitas modul
+; dapat berisikan identitas penulis modul, dan juga konfigurasi modul
+; bagian third_section adalah aksi dari menu pada bagian second_section
+
+[first_section]
+penulis="Aditya Yudha Pradhana"
+webpenulis="http://www.pradhana.net"
+namamodul="Foto Album"
+url="album.php"
+
+[second_section]
+menu[]="Data Album|album.php"
+menu[]="Tambah Album|tambah-album.php"

@@ -1,0 +1,14 @@
+; file ini adalah file identitas modul
+; dapat berisikan identitas penulis modul, dan juga konfigurasi modul
+; bagian third_section adalah aksi dari menu pada bagian second_section
+
+[first_section]
+penulis="Aditya Yudha Pradhana"
+webpenulis="http://www.pradhana.net"
+namamodul="Pengaturan"
+url="situs.php"
+
+[second_section]
+menu[]="Pengaturan Tampilan|tampilan.php"
+menu[]="Pengaturan Situs|situs.php"
+menu[]="Slider|slider.php"

@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+html{
+	margin:0;
+}
+body{
+	background-color:#edefef;
+	margin:0;
+	padding:0;
+}
+body,td,th.textarea {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+}
+
+h1, h2, h3{
+	margin:2px;
+}
+h3{
+	padding-bottom:4px;
+	border-bottom:1px dotted #000;
+}
